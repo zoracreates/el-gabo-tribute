@@ -2,13 +2,14 @@ html,body {
   font-family: 'Merriweather', serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #C4C2AE;
-  color: #544336;
+  background: fbfb;
+  color: #555555;
 }
 
 a {
   text-decoration: none;
-  color: #951B18;
+  color: #921f1f;
+  font-weight: bold;
 }
 
 a:hover {
@@ -36,7 +37,7 @@ header {
 }
 
 .hero, .intro {
-  border-bottom: 1px solid #544336;
+  border-bottom: 1px solid #454545;
 }
 
 .hero {
@@ -55,24 +56,32 @@ header {
 
 }
 
-.title, h4 {
-    color: #382C24;
+/*.title {
+  color: #3b0909;
+}*/
+
+h4 {
+    color: #2e2e2e;
 }
 
 .title {
   width: 100%;
   text-align: center;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Lemon', cursive;
   font-size: 1em;
-  letter-spacing: .5em;
+  color: #000;
+
 }
 
 .title h1 {
   font-size: 3em;
+  margin-bottom: 0;
 }
 
 .title h2 {
   font-size: 2em;
+  font-family: 'Pacifico', cursive;
+  margin-top: 0;
 }
 
 .title h2 {
@@ -88,7 +97,7 @@ header {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  box-shadow: 4px 4px #A3A291;
+  box-shadow: 4px 4px #9c9c9c;
   }
 
 
@@ -136,7 +145,7 @@ footer {
 footer h6 {
   font-weight: normal;
   font-size: .75em;
-  border-top: 1px solid #544336;
+  border-top: 1px solid #454545;
   padding: 15px 0;
 }
 
