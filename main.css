@@ -75,11 +75,7 @@ header {
   font-size: 2em;
 }
 
-.title h3 {
-  font-size: 1.17em;
-}
-
-.title h2, .title h3 {
+.title h2 {
   font-weight: normal;
 }
 
