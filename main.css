@@ -1,0 +1,191 @@
+html,body {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #C4C2AE;
+  color: #544336;
+}
+
+a {
+  text-decoration: none;
+  color: #951B18;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 96%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+}
+
+.hero, .intro {
+  border-bottom: 1px solid #544336;
+}
+
+.hero {
+  width: 100%;
+  padding: 10px 0;
+
+}
+
+.intro {
+  width: 100%;
+}
+
+.intro p {
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+.title, h4 {
+    color: #382C24;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 1em;
+  letter-spacing: .5em;
+}
+
+.title h1 {
+  font-size: 3em;
+}
+
+.title h2 {
+  font-size: 2em;
+}
+
+.title h3 {
+  font-size: 1.17em;
+}
+
+.title h2, .title h3 {
+  font-weight: normal;
+}
+
+.top-img {
+  width: 80%;
+  margin:auto;
+}
+
+.top-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 4px 4px #A3A291;
+  }
+
+
+figcaption {
+  font-size: .7em;
+  padding-top: 3px;
+  color: #544336;
+}
+
+
+.details {
+  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: .95em;
+}
+
+.details ul {
+  padding-left: 5%;
+  font-size: .9em;
+}
+.details li {
+  padding-top: 10px;
+  list-style: lower-hexadecimal;
+}
+
+.cl {
+  width: 98%;
+  margin: auto;
+  padding: auto 1%;
+}
+
+.works li, .articles span {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+}
+footer h6 {
+  font-weight: normal;
+  font-size: .75em;
+  border-top: 1px solid #544336;
+  padding: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .hero {
+  width: 100%;
+  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  margin-top: 5px;
+  }
+
+  .title {
+    width: 60%;
+    margin-left: 5%;
+    padding-top: 10%;
+    text-align: left;
+}
+
+  .top-img {
+    width: 35%;
+    margin: auto;
+}
+
+}
+@media (min-width: 940px){
+
+  .title {
+    width: 70%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+  .top-img {
+    width: 25%;
+    margin: auto;
+}
+
+  .cl {
+    width: 31%;
+    padding: 0 1%;
+    margin-top:0;
+  }
+
+}
